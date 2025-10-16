@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login — Hillstone Pointe HOA</title>
+  <meta name="description" content="Homeowner login portal for Hillstone Pointe HOA. Access exclusive documents and community resources." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header small">
+    <div class="brand">
+      <div class="logo-box">
+        <img src="Hillstone pointe.jpg" alt="Hillstone Pointe HOA Logo" class="logo-img">
+      </div>
+      <div class="brand-text">
+        <div class="title">Hillstone Pointe</div>
+        <div class="subtitle">Homeowners Association</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">← Back to Home</a>
+    </nav>
+  </header>
+
+  <section class="gradient-bg">
+    <div class="container narrow">
+      <div class="text-center" style="margin-bottom: 40px;">
+        <div class="logo-box" style="margin: 0 auto 20px auto;">
+          <img src="Hillstone pointe.jpg" alt="Hillstone Pointe HOA Logo" class="logo-img">
+        </div>
+        <h1 style="color: var(--brown); margin-bottom: 12px;">Welcome Back</h1>
+        <p style="color: var(--muted);">Sign in to access your homeowner portal</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="container narrow">
+    <div class="auth-card">
+      <h2>Homeowner Login</h2>
+      <p style="margin-top: 0; color: var(--muted);">Access your homeowner portal for exclusive documents, meeting minutes, and community resources.</p>
+      
+      <form style="margin-top: 32px;">
+        <label>
+          Email Address
+          <input type="email" required placeholder="your.email@example.com" />
+        </label>
+        
+        <label>
+          Password
+          <input type="password" required placeholder="Enter your password" />
+        </label>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; margin: 16px 0;">
+          <label style="display: flex; align-items: center; margin: 0; font-size: 14px;">
+            <input type="checkbox" style="margin-right: 8px; width: auto;">
+            Remember me
+          </label>
+          <a href="#" style="font-size: 14px; color: var(--accent);">Forgot password?</a>
+        </div>
+        
+        <div class="form-actions">
+          <button class="btn" type="submit" style="width: 100%;">Sign In</button>
+        </div>
+      </form>
+      
+      <div style="text-align: center; margin-top: 24px; padding-top: 24px; border-top: 1px solid #e2e8f0;">
+        <p style="margin-bottom: 16px; color: var(--muted);">Don't have an account?</p>
+        <a href="register.html" class="btn ghost">Register as Homeowner</a>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top: 32px;">
+      <h3>Need Help?</h3>
+      <p>Having trouble logging in? Contact our support team:</p>
+      <ul style="margin: 16px 0;">
+        <li>Email: <a href="mailto:support@hillstonehoa.org">support@hillstonehoa.org</a></li>
+        <li>Phone: (555) 123-4567</li>
+        <li>Visit: <a href="contact.html">Contact Us</a> page</li>
+      </ul>
+    </div>
+
+    <div style="margin-top: 32px; text-align: center;">
+      <h3>What's Inside the Portal?</h3>
+      <div class="grid" style="margin-top: 20px;">
+        <div class="card">
+          <h4 style="margin-top: 0;">📊 Financial Reports</h4>
+          <p style="font-size: 14px;">Monthly budgets, reserve studies, and detailed financial statements.</p>
+        </div>
+        
+        <div class="card">
+          <h4 style="margin-top: 0;">📝 Meeting Materials</h4>
+          <p style="font-size: 14px;">Complete meeting minutes, voting records, and archived documents.</p>
+        </div>
+        
+        <div class="card">
+          <h4 style="margin-top: 0;">🏠 Account Management</h4>
+          <p style="font-size: 14px;">Update contact info, view payment history, and manage preferences.</p>
+        </div>
+        
+        <div class="card">
+          <h4 style="margin-top: 0;">📋 Submit Requests</h4>
+          <p style="font-size: 14px;">Architectural reviews, maintenance requests, and violation appeals.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>© 2025 Hillstone Pointe HOA. All rights reserved.</div>
+      <div style="margin-top: 12px; font-size: 12px; opacity: 0.7;">
+        Site created by <a href="https://aksharnixglobal.com" target="_blank" style="color: var(--accent); text-decoration: none;">Aksharnix Global</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
