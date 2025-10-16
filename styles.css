@@ -393,9 +393,10 @@ p {
 
 .btn.ghost {
   background: transparent;
-  color: white;
+  color: var(--primary);
   border: 2px solid var(--accent);
   box-shadow: 0 4px 16px rgba(212, 165, 116, 0.2);
+  font-weight: 700;
 }
 
 .btn.ghost:hover {
@@ -518,6 +519,18 @@ a:hover {
 .hero-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Hero specific ghost button styling */
+.hero .btn.ghost {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.hero .btn.ghost:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-color: white;
 }
 
 /* Grid Layout */
