@@ -1,24 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Oakwood HOA Website
+
+A comprehensive, modern website for the Oakwood Homeowners Association built with Next.js, TypeScript, and Tailwind CSS. Inspired by professional HOA websites with full-featured resident services.
+
+## 🏡 Features
+
+### Public Pages
+- **Home Page**: Hero section, featured news, recent documents, and quick links
+- **About**: Community information, features, and HOA management details
+- **Board Members**: Meet the board of directors with contact information
+- **Documents**: Access to governing documents, financial reports, and downloadable forms
+- **Announcements**: Latest community news and important updates
+- **Contact**: Contact information, office hours, and contact form
+- **Lost & Found Pets**: Community pet reporting and recovery system
+
+### Resident Portal
+- **ACC Request Form**: Architectural Control Committee request submissions
+- **Payment Portal**: Online HOA dues payment with multiple options
+- **Payment Plans**: Request payment plan arrangements
+- **Pool Access**: Pool rules and access card requests
+- **Maintenance Requests**: Report common area issues
+- **Directory Access**: Resident directory (members only)
+- **Committee Participation**: Join HOA committees and volunteer
+
+### Professional Features
+- **Recently Added Documents**: Dynamic document library
+- **Newsletter Integration**: Community newsletter access
+- **Payment Integration**: Secure online payment processing
+- **Form Submissions**: Professional request handling system
+- **Mobile Responsive**: Works perfectly on all devices
+- **Professional Design**: Clean, modern HOA-focused layout
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository
+2. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Open [http://localhost:3000](http://localhost:3000) to view the website
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
+
+- `/src/app/` - Next.js app router pages
+- `/src/components/` - Reusable React components
+- `/public/` - Static assets (images, documents)
+- `tailwind.config.ts` - Tailwind CSS configuration
 
 ## Learn More
 
